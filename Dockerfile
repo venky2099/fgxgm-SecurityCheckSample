@@ -15,7 +15,7 @@
 # CMD [ "node", "index.js" ]
 
 # Use an updated and secure base image
-FROM node:18.19.1
+FROM node:18.20.3
 
 # Set a non-root user for better security
 RUN useradd -m appuser
